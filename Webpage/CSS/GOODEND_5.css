@@ -1,0 +1,27 @@
+header{display:block; clear:both; padding:5px; text-align:center; color:white; opacity:0.5; width:100%}
+footer{display:block; 
+    clear:both; 
+    padding:5px; 
+    text-align:center; 
+    color:white;
+    opacity:0.5; 
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;}
+.button{margin: 10px; padding: 5px;font-size: 15px;}
+
+article {display:block; width:80%; height:50%; padding:5px;margin: auto;}
+h1{color:red; text-align:center;}
+h3{color:orange; text-align:center;}
+
+div.Content{font-size:20px; 
+    font-family:DFKai-sb; 
+    color:blue; 
+    padding:10px; 
+    margin: auto;
+    background-color:gray; 
+    opacity:0.7;}
+div.choice_menu{text-align: center; margin: 40px;}
+.choice{font-size:15px; font-family:DFKai-sb; text-align: center; padding: 5px 30px; margin:0px 30px;}
+

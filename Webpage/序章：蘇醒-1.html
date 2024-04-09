@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset= "utf-8">
+    <title> 序章：蘇醒 </title>
+    <style>
+    @import url("CSS/Chapter1-1.css");
+    </style> 
+ </head>
+<body style="background-image: url('BGpic/Darkforest.jpg'); background-size:cover;">
+  <audio src="BGM/Glacier - Chris Haugen.mp3" autoplay loop></audio>
+  <header>狐狸的神秘傳説</header>
+  <nav>
+    <p>主菜单</p>
+    <button id="return" class="button" onclick="returnHomePage()">回到首頁</button>
+    <br>
+    <button id="Save_Menu" class="button" onclick="Load_Save_Menu()">進入神社憶之境</button>
+    <br>
+    <button id="Fox_Stats" class="button" onclick="Fox_Stats()">狐狸資料面板</button>
+    <br>
+    <button id="aboutfoxes" class="button" onclick="Aboutfoxes()";>狐狸奇事</button>
+    <br>
+    <button id="credits" class="button" onclick="credit()";>關於游戲</button>
+  </nav>
+
+  <article>
+
+      <hgroup>
+         <h1>序章：蘇醒</h1>
+         <h3>深夜半，無月色。</h3>
+         <h3>聞狐啼，狐族起。</h3>
+         <h3>母狐醒，呼幼起。</h3>
+         <h3>幼狐醒，靈命名。</h3>
+      </hgroup>
+
+    <div id="Chapter1-1" class="Content">
+       <p>小狐狸從母狐狸的懷裏醒來，母狐狸看著小狐狸醒來了便用頭蹭了蹭小狐狸的臉頰便走出狐狸窩外等著。小狐狸隨後也從狐狸窩裏走了出來。由於今天便是小狐狸成年的日子也是長老帶領剛成年的狐狸出山歷練的日子，今天森林因爲在最黑的夜晚顯得格外寧靜。母狐狸望著小狐狸，仿佛是在等小狐狸準備好自己出山歷練。</p>
+         <br>
+       <p>小狐狸望著這一片黑漆漆的森林，如同現在的它即將面臨黑暗的未知。這時小狐狸的額頭出現了一個彎月形的印記，散發著一絲微弱的光芒后，暗淡了下來。小狐狸感覺自己與什麽東西產生了一絲絲的聯係，腦袋裏開始仿佛聼到了微弱的聲音。</p>
+         <br>
+      <p>恭喜你，你與小狐狸成功建立初始聯係。從這裏開始你可以開始與小狐狸溝通並協助小狐狸做出選擇的時候了，不過在那之前請先和小狐狸打個招呼了吧。（請按 “打招呼”) </p>   
+    </div>
+
+    <div id="Choice1" class="choice_menu" style="display:block;">
+    <button  class="choice" onclick="Chapter1_1Choice()";>打招呼</button>
+    </div>
+    
+    <div id="Chapter1-2" class="Content" style="display:none;">
+      <p>這時小狐狸的腦海裏聼到了你的招呼聲，它扭頭觀察它的四周。它看似非常疑惑和害怕。你用言語安撫了小狐狸并解釋自己是每隻剛成年的狐狸會遇到的守護靈，小狐狸似乎放心了許多，比起單獨一個人面對未知的未來，至少還有一個守護靈的陪伴。這時小狐狸聽到的母狐狸的叫聲而回過神來。母狐狸看著小狐狸發呆的那一刻，曾有相似的經理的它明白了自己的孩子已經遇到了屬於它自己的守護靈，心裏放心許多了。小狐狸望了母狐狸和四周仿佛在考慮著什麽。 </p>
+     <br>
+     <p>這裏可以開始幫助小狐狸做出它第一個選擇了，請做出你的選擇。</p>
+   </div>
+
+   <div id="Choice2" class="choice_menu" style="display:none;">
+    <button  class="choice" onclick="Chapter1_2_1Choice()">觀察四周</button>
+    <button  class="choice" onclick="Chapter1_2_2Choice()">跟著母狐狸前往狐狸聚落</button>
+  </div>
+
+  <div id="Chapter1-2-2" class="Content" style="display:none;">
+    <p>小狐狸望了望下四周，感覺沒有什麽引狐注意的東西，便跟隨母狐狸前往狐狸聚落。</p>
+    <br>
+  </div>
+
+  <div id="Chapter1-2-1" class="Content" style="display:none;">
+    <p>小狐狸聆聽了你的建議，打算在前往狐狸聚落前觀察四周一下。小狐狸仔細望了望四周，發現自己所居住的狐狸窩附近長者發亮的東西。小狐狸上前查看，發現是幾朵發出微光的蘑菇。小狐狸回想它從小都一直看到這些蘑菇在夜晚總是會發亮。小狐狸想到今天會是夜晚最暗的日子，正考慮著是否采集一些蘑菇作爲為出山時的探路光源。。。。。 </p>
+    <br>
+  </div>
+
+
+ <div id="Choice3" class="choice_menu" style="display:none;">
+  <button  class="choice" onclick="Chapter1_3_1Choice()">挑最大的</button>
+  <button  class="choice" onclick="Chapter1_3_2Choice()">挑最小的</button>
+  <button  class="choice" onclick="Chapter1_3_3Choice()">不要</button>
+</div>
+
+<div id="Chapter1-3-1" class="Content" style="display:none;">
+  <p>小狐狸挑了一朵最大的蘑菇便把它拔出來。由於剛成年的小狐狸還未成功學習化形，無法像人類用手拿著，只能用嘴含著蘑菇。這時小狐狸的四周被蘑菇的稍强烈的微光照亮了，小狐狸更能在黑暗的森林裏探路時照亮四周。小狐狸望了望下四周，感覺沒有什麽引狐注意的東西，便跟隨母狐狸前往狐狸聚落。 </p>
+  <br>
+</div>
+
+<div id="Chapter1-3-2" class="Content" style="display:none;">
+  <p>小狐狸挑了一朵最小的蘑菇便把它拔出來。由於剛成年的小狐狸還未成功學習化形，無法像人類用手拿著，只能用嘴含著蘑菇。可是蘑菇由於太小仿佛照亮不到什麽，小狐狸望了望下四周，感覺沒有什麽引狐注意的東西，便跟隨母狐狸前往狐狸聚落。</p>
+  <br>
+</div>
+
+<div id="Chapter1-3-3" class="Content" style="display:none;">
+  <p>小狐狸看了看這些發光蘑菇，認爲把它們帶著會在出山探路時會容易引起獵人的注意便決定都帶著它們了。小狐狸望了望下四周，感覺沒有什麽引狐注意的東西，便跟隨母狐狸前往狐狸聚落。</p>
+  <br>
+</div>
+
+
+<div id="ChoiceEnd" class="choice_menu" style="display:none;">
+  <button  class="choice" onclick="ChapterEndChoice()">下一章</button>
+</div>
+
+
+  </article>
+
+  <footer>由409410069資工一吳埕頡同學所制</footer>
+
+  <script src="Javascript/Chapter1-1.js" langguage="javascript"></script>
+ </body>
+
+</html>

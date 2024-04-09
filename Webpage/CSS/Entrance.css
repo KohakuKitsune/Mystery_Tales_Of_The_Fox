@@ -1,0 +1,35 @@
+
+footer{display:block; 
+    clear:both; 
+    padding:5px; 
+    text-align:center; 
+    color:white;
+    opacity:0.8; 
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;}
+
+div.label{display:flex; 
+    align-items:center; 
+    justify-content: center;
+    top: 30%;
+    margin:10px;
+}
+
+div.img{max-width: 100%;}
+
+div.text{font-family:DFKai-sb; font-weight: 100; font-size: 30px; color:lightgray;}
+
+div.Content{font-size:25px;
+    background-color:gray; 
+    color:white;text-align: center;
+    font-family:DFKai-sb;
+    position: fixed; 
+    left:20%; 
+    right:20%; 
+    top: 30%; 
+    opacity:0.7;
+    padding:10px;}
+
+#enter{font-size: 20px; margin: 5px; padding: 10px;}

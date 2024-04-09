@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset= "utf-8">
+    <title> 神社憶之境 </title>
+    <style>
+     @import url("CSS/SaveMenu.css");
+    </style>  
+    <script src="Javascript/SaveMenu.js" langguage="javascript"></script>
+ </head>
+ <body style="background-image: url('BGpic/Torii-Gates.png'); background-size:cover;">
+<audio src="BGM/PerituneMaterial_Sakuya2.mp3" autoplay loop></audio>
+ <header>神社憶之境</header>
+<article>
+<div id="Text" class="Content">
+   <p>
+       小狐狸面對著神奇的鏡子，看著自己的在鏡子裏的倒影。這時小狐狸發現自己的倒影漸漸開始變得模糊了起來。隨著它的倒影變得模糊，自己也開始感覺到自己的精神慢慢地被拉入
+       鏡子中。小狐狸感到自己的眼皮變得沉重而不自覺地昏睡了過去。。。。。。。。
+   </p>
+   <p> 一瞬間，小狐狸發現自己進入了那熟悉和祥和空間裏。小狐狸身處在一片廣闊金黃色的稻田裏，在四周不遠處都許多鳥居圍繞著這一片稻田。
+     這時小狐狸聽到一個溫柔的聲音傳入它耳裏。。。。。
+   </p>
+   <p style='text-align:center'>世間有無數的岔路，但一生只選一向行。</p>
+   <p style='text-align:center'>此幻境為回憶之廊，可隨汝慾穿梭回憶。</p>
+   <p style='text-align:center'>大千世界如一對鏡，相照能映出無限面。</p>
+   <p style='text-align:center'>汝做出你的選擇吧，回味當初或作改變。</p>
+   <p>在那溫柔的聲音消逝后，小狐狸抖了抖耳朵，望著圍繞著它四周的鳥居們。它思考一會兒后，便慢慢地走向其中一個鳥居。。。。。</p>
+</div>
+
+<div id="Save" Class="Save" >
+  <table border="1" Class="Savetable">
+<tr>
+  <td>
+    <img src="Icons/torii-gate.png" class="SaveLoad" onclick="Save1()">
+    <p>（一）</p>
+  </td>
+  <td>
+    <img src="Icons/torii-gate.png" class="SaveLoad" onclick="Save2()">
+    <p>（二）</p>
+  </td>
+</tr>
+<tr>
+  <td>
+    <img src="Icons/torii-gate.png" class="SaveLoad" onclick="Save3()">
+    <p>（三）</p>
+  </td>
+  <td>
+    <img src="Icons/torii-gate.png" class="SaveLoad" onclick="Save4()">
+    <p>（四）</p>
+  </td>
+</tr>
+</table>
+</div>
+
+<div id="Load" Class="Load" >
+  <table border="1" Class="Loadtable">
+<tr>
+  <td>
+    <img src="Icons/torii-gate.png" class="SaveLoad" onclick="Load1()">
+    <p>（一）</p>
+  </td>
+  <td>
+    <img src="Icons/torii-gate.png" class="SaveLoad" onclick="Load2()">
+    <p>（二）</p>
+  </td>
+</tr>
+<tr>
+  <td>
+    <img src="Icons/torii-gate.png" class="SaveLoad" onclick="Load3()">
+    <p>（三）</p>
+  </td>
+  <td>
+    <img src="Icons/torii-gate.png" class="SaveLoad" onclick="Load4()">
+    <p>（四）</p>
+  </td>
+</tr>
+</table>
+</div>
+
+
+
+<div class="button">
+  <button id="return" class="button" onclick="returnHomePage()">回到首頁</button>
+  <button id="returnStory" class="button" onclick="returnStory()">回到故事</button>
+  <button id="Savebutton" class="button" onclick="SaveProgress()">儲存記憶</button>
+  <button id="Loadbutton" class="button" onclick="LoadProgress()">讀取記憶</button>
+</div>
+
+</article>
+
+ <footer>由409410069資工一吳埕頡同學所制</footer>
+ </body>
+
+</html>
